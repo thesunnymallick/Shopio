@@ -1,0 +1,162 @@
+@import "../../style/variable.scss";
+.sidebar {
+  padding: 0.7rem 0rem;
+  height: 130vh;
+  background-color: $color1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AdminContaint {
+  display: flex;
+}
+.sidebar-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+      color: $color11;
+    }
+    span {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: $color11;
+    }
+    a {
+      text-decoration: none;
+      svg {
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: $color11;
+      }
+    }
+  }
+}
+.sidebar-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 0rem;
+  align-items: center;
+  div {
+    img {
+      width: 6.5rem;
+      height: 6.5rem;
+      border-radius: 50%;
+    }
+    p {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: $color11;
+    }
+  }
+}
+
+.sidebar-3 {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s;
+    padding: 0.5rem 0rem;
+    margin: 0.5rem 0rem;
+    font-size: 1.2rem;
+    text-align: center;
+
+    div {
+      display: flex;
+      align-items: center;
+      svg {
+        font-size: 1.5rem;
+        color: $color11;
+      }
+      p {
+        color: $color11;
+        margin-left: 0.5rem;
+      }
+    }
+    &:hover {
+      background-color: $color2;
+    }
+  }
+}
+
+.adminImage {
+  img {
+    width: 2.6rem !important;
+    height: 2.6rem !important;
+    border: 2px solid $color2;
+  }
+}
+.active {
+  background-color: $color11 !important;
+  svg {
+    color: $color5 !important;
+  }
+  p {
+    color: $color5 !important;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .sidebar {
+    height: 350vh;
+  }
+  .admin-is-open {
+    display: none;
+  }
+  .sidebar-2 {
+    margin: 0.5rem;
+  }
+  .sidebar {
+    padding: 0.2rem 0rem;
+  }
+  .sidebar-3 {
+    width: 100%;
+    margin-top: 0rem;
+
+    a {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      font-size: 1.6rem;
+      text-align: center;
+      padding: 0%;
+      margin: 0.7;
+      padding: 0.5rem 0rem;
+      border-radius: 0px;
+    }
+  }
+  .active {
+    background-color: $color11 !important;
+    svg {
+      color: $color5 !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .sidebar {
+    height: 280vh;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .sidebar {
+    height: 220vh;
+  }
+}

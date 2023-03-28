@@ -1,0 +1,60 @@
+@import "../../style/variable.scss";
+
+.allOrders {
+  width: 100%;
+  background-color: $color7;
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem 2rem;
+  margin: 0rem auto;
+  flex-direction: column;
+  h1 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-left: 1rem;
+  }
+  > p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 0.1rem 0rem;
+    margin-left: 1rem;
+  }
+  table {
+    margin-top: 1rem;
+    width: 100%;
+    border-collapse: collapse;
+
+    td,
+    th {
+      border: 1px solid $color8;
+      padding: 0.5rem;
+    }
+    th {
+      background-color: $color2;
+      color: $color11;
+      text-align: left;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    tr {
+      cursor: pointer;
+      &:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      &:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+}
+
+.success-message {
+  color: #5cb85c;
+  font-weight: 900;
+}
+.processing-message {
+  color: #d9534f;
+  font-weight: 800;
+}

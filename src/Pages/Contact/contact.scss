@@ -1,0 +1,70 @@
+@import "../../style/variable.scss";
+.conatct {
+  width: 100%;
+  background-color: $color7;
+  display: flex;
+  padding: 1rem 2rem;
+  height: 100%;
+  > div {
+    flex: 1;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.09);
+  }
+}
+.contact-form {
+  background-color: $color11;
+  padding: 1rem;
+  border-radius: 10px 0px 0px 10px;
+
+  > form {
+    h1 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 0.5rem;
+    }
+    .MuiTextField-root {
+      margin: 0.5rem 0rem;
+    }
+    button {
+      margin-top: 1rem;
+      background-color: $color2;
+      width: 30%;
+      transition: all 0.3s;
+      &:hover {
+        background-color: $color13;
+      }
+    }
+  }
+}
+.contact-map {
+  padding: 1rem;
+  border-radius: 0px 10px 10px 0px;
+  background-color: $color4;
+}
+@media only screen and (max-width: 930px) {
+  .conatct {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .conatct {
+    flex-direction: column;
+  }
+  .contact-form {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .contact-map {
+    border-radius: 0px 0px 10px 10px;
+    padding: 0.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .contact-form {
+    > form {
+      > button {
+        width: 60%;
+      }
+    }
+  }
+}

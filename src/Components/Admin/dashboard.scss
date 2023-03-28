@@ -1,0 +1,136 @@
+@import "../../style/variable.scss";
+
+.dashboard {
+  width: 100%;
+  background-color: $color7;
+  padding: 1.5rem 0.5rem;
+}
+
+.dashboard-all-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.dashboard-box {
+  width: 16rem;
+  height: 7rem;
+  background-color: $color11;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 0.7rem;
+  border-radius: 7px;
+  box-shadow: 0px 25px 7px 0px rgb(0, 0, 0, 0.09);
+  div {
+    h1 {
+      font-size: 1.3rem;
+      margin-bottom: 0.4rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      color: $color5;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      color: $color8;
+    }
+    svg {
+      font-size: 3rem;
+      color: $color5;
+    }
+  }
+}
+
+.charts {
+  width: 100%;
+  display: flex;
+  padding: 0.6rem 0.5rem;
+  padding-top: 1rem;
+  margin-top: 1.7rem;
+  gap: 10px;
+  justify-content: space-around;
+  > div {
+    background-color: $color11;
+    padding: 0.7rem;
+    border-radius: 10px;
+    box-shadow: 0px 7px 25px 0px rgb(0, 0, 0, 0.09);
+    h2 {
+      font-size: 1.2rem;
+      letter-spacing: 1px;
+      font-weight: bold;
+      color: $color8;
+      text-transform: uppercase;
+    }
+  }
+}
+.chart {
+  width: 50%;
+}
+.chart-2 {
+  width: 40%;
+}
+
+@media only screen and (max-width: 970px) {
+  .dashboard-all-box {
+    justify-content: flex-start;
+  }
+  .dashboard-box {
+    width: 45%;
+  }
+  .charts {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .chart {
+    width: 90%;
+  }
+  .chart-2 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .dashboard-all-box {
+    justify-content: center;
+    align-items: center;
+  }
+  .dashboard-box {
+    width: 90%;
+  }
+  .charts {
+    align-items: center;
+  }
+  .chart {
+    width: 90%;
+  }
+  .chart-2 {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .charts {
+    > div {
+      h2 {
+        font-size: 1rem;
+        letter-spacing: 0.3px;
+      }
+    }
+  }
+  .dashboard-box {
+    div {
+      h1 {
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: 0.9rem;
+      }
+      svg {
+        font-size: 2rem;
+      }
+    }
+  }
+}

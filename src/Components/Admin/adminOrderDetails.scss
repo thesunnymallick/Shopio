@@ -1,0 +1,411 @@
+@import "../../style/variable.scss";
+.OrderDetails {
+  width: 100%;
+  background-color: $color6;
+}
+.orderDetails-1 {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: $color11;
+  border-bottom: 1px solid $color8;
+  h1 {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    margin: 0.5rem 0rem;
+  }
+  p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    padding: 0rem 0.5rem;
+  }
+}
+
+.orderDetails-2 {
+  width: 100%;
+  margin: 1rem 0rem;
+  padding: 0rem 1rem;
+  display: flex;
+  > section {
+    background-color: $color11;
+    width: 70%;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0.5px $color8;
+    > div {
+      width: 100%;
+      padding: 1rem;
+      border-bottom: 1px solid $color8;
+      h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      th {
+        background-color: $color2;
+        color: $color11;
+        text-align: left;
+        padding-left: 0.5rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+      }
+      td {
+        padding: 0.5rem;
+      }
+      tr {
+        &:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+        &:hover {
+          background-color: #ddd;
+        }
+      }
+    }
+  }
+
+  article {
+    width: 30%;
+    background-color: $color11;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 0.5px $color8;
+    > div {
+      padding: 1rem;
+      border-bottom: 1px solid $color8;
+      h1 {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+    > section {
+      width: 100%;
+      > form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0.7rem;
+        > select {
+          width: 100%;
+          padding: 0.7rem;
+          margin: 0.4rem 0rem;
+          font-size: 1.1rem;
+          outline: none;
+          border: none;
+          border: 1px solid $color2;
+        }
+        > button {
+          margin-top: 1rem;
+          background-color: $color2;
+          font-size: 0.9rem;
+          &:hover {
+            background-color: $color13;
+          }
+        }
+      }
+    }
+  }
+}
+
+.itemDetails {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  div {
+    cursor: pointer;
+    margin-left: 0.5rem;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      object-fit: cover;
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    h4 {
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      color: $color2;
+      margin-bottom: 0.3rem;
+      width: 180px;
+      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+    }
+    h5 {
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+      color: $color8;
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+
+.itemsDetails-quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.itemsDetails-quantity-price {
+  color: $color5;
+  letter-spacing: 0.5px;
+}
+.itemsDetails-btn {
+  button {
+    width: 100%;
+    font-size: 0.7rem;
+    background-color: $color2;
+    transition: all 0.3s;
+    &:hover {
+      background-color: $color13;
+    }
+  }
+}
+.orderDetails-3 {
+  padding: 0rem 1rem;
+  width: 65%;
+  margin: 1rem 2rem;
+  border-radius: 5px;
+  background-color: $color11;
+  box-shadow: 0px 0px 1px 0.5px $color8;
+  h1 {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 0.5rem 0rem;
+    margin: 1rem 0rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid $color8;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    div {
+      padding: 0rem 0.5rem;
+      h5 {
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin: 0.3rem;
+      }
+      h6 {
+        font-size: 0.9rem;
+        letter-spacing: 0.5px;
+        font-weight: 600;
+        margin: 0.3rem;
+        display: flex;
+        p {
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .orderDetails-2 {
+    > section {
+      margin: 0.5rem;
+      width: 75%;
+    }
+    > article {
+      margin: 0.5rem;
+      width: 70%;
+    }
+  }
+  .orderDetails-3 {
+    margin: 1rem 1.5rem;
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .orderDetails-2 {
+    padding: 0rem;
+    margin: 0rem;
+    padding: 0.5rem;
+    flex-direction: column;
+
+    align-items: center;
+    > section {
+      width: 100%;
+    }
+    > article {
+      width: 70%;
+    }
+  }
+  .orderDetails-3 {
+    padding: 0.3rem 0.5rem;
+    margin: 0rem 0rem;
+    margin-left: 0rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .orderDetails-2 {
+    > article {
+      width: 80%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .orderDetails-2 {
+    > article {
+      width: 80%;
+    }
+  }
+  .itemDetails {
+    flex-direction: column;
+    align-items: flex-start;
+    > div {
+      margin: 0.3rem 0rem;
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+      h4 {
+        width: 100px;
+      }
+      h5 {
+        width: 100px;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+  .itemDetails-Quantity {
+    display: none;
+  }
+
+  .orderDetails-3 {
+    padding: 0.3rem;
+    h1 {
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.3rem;
+      margin: 0.3rem;
+    }
+    section {
+      display: flex;
+      justify-content: space-between;
+      div {
+        padding: 0rem 0.5rem;
+        h5 {
+          font-size: 0.7rem;
+        }
+        h6 {
+          font-size: 0.6rem;
+          p {
+            margin-right: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .orderDetails-1 {
+    padding: 0.5rem;
+    h1 {
+      font-size: 0.9rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .orderDetails-2 {
+    > section {
+      > div {
+        h1 {
+          font-size: 1rem;
+        }
+      }
+      > table {
+        th {
+          font-size: 0.9rem;
+        }
+        td {
+          font-size: 0.8rem;
+        }
+      }
+    }
+    > article {
+      width: 90%;
+      > div {
+        h1 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .itemsDetails-btn {
+    button {
+      width: 100%;
+      font-size: 0.5rem;
+    }
+  }
+  .itemDetails {
+    padding: 0.3rem;
+    div {
+      img {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      h4 {
+        font-size: 0.7rem;
+      }
+      h5 {
+        font-size: 0.6rem;
+      }
+    }
+  }
+
+  .orderDetails-3 {
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        h5 {
+          font-size: 0.7rem;
+        }
+        h6 {
+          font-size: 0.7rem;
+          display: flex;
+          flex-wrap: wrap;
+          p {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+  .MuiStepLabel-label {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .orderDetails-2 {
+    > section {
+      overflow-x: auto;
+    }
+    > aside {
+      width: 85%;
+    }
+  }
+}

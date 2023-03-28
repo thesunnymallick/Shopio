@@ -1,0 +1,159 @@
+@import "../../style/variable.scss";
+
+.login {
+  width: 100%;
+  height: 100vh;
+  background-color: $color7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginContent {
+  padding: 2rem;
+  background-color: $color11;
+  width: 30%;
+  height: 80vh;
+  box-shadow: 0px 0px 2px 0.5px $color2;
+  border-radius: 5px;
+  > div {
+    h1 {
+      font-size: 1.5rem;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 1rem;
+      letter-spacing: 0.5px;
+    }
+  }
+  > form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    > input,
+    button {
+      width: 95%;
+      padding: 0.5rem;
+      margin: 0.5rem 0rem;
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      border: 1px solid $color2;
+      background-color: $color11;
+      color: $color9;
+      font-size: 0.9rem;
+    }
+    button {
+      cursor: pointer;
+      background-color: $color3;
+      border: 1px solid $color5;
+      text-transform: uppercase;
+      transition: all 0.3s;
+      &:hover {
+        background-color: $color10;
+      }
+    }
+    a {
+      font-size: 1rem;
+      margin: 0.7rem 0rem;
+      text-decoration: none;
+      color: $color12;
+      transition: all 0.3s;
+
+      &:hover {
+        color: $color5;
+        text-decoration: underline;
+      }
+    }
+  }
+  > section {
+    > span {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem 0rem;
+      span {
+        width: 95%;
+        height: 1px;
+        margin: 0rem 0.5rem;
+        background-color: $color8;
+      }
+    }
+    button {
+      display: flex;
+      align-items: center;
+      width: 95%;
+      padding: 0.5rem;
+      background-color: transparent;
+      border: none;
+      border: 1px solid $color2;
+      color: $color9;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-family: $text1;
+      cursor: pointer;
+      transition: all 0.3s;
+      svg {
+        font-size: 1.1rem;
+        margin-right: 4.5rem;
+      }
+      &:hover {
+        background-color: $color6;
+      }
+    }
+  }
+
+  > aside {
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 0.9rem;
+      padding: 0rem 0.3rem;
+    }
+    a {
+      font-size: 1rem;
+      color: $color12;
+      padding: 0rem 0.2rem;
+      text-transform: none;
+      text-decoration: none;
+      &:hover {
+        color: $color5;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Media Query
+@media only screen and (max-width: 1200px) {
+  .loginContent {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .loginContent {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .loginContent {
+    padding: 1rem;
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .loginContent {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .loginContent {
+    width: 95%;
+  }
+}

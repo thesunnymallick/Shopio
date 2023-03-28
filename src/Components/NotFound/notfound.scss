@@ -1,0 +1,91 @@
+@import "../../style/variable.scss";
+
+.notfound {
+  width: 100%;
+  height: 100vh;
+  background-color: $color11;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > div {
+    padding: 1rem;
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    img {
+      width: 30rem;
+      object-fit: contain;
+    }
+    div {
+      padding: 1rem;
+      h2 {
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+      a {
+        text-decoration: none;
+        button {
+          background-color: $color2;
+          transition: all 0.3s;
+          &:hover {
+            background-color: $color13;
+          }
+          svg {
+            font-size: 1.3rem;
+            margin-left: 0.3rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .notfound {
+    > div {
+      padding: 0.5rem;
+      img {
+        width: 20rem;
+      }
+      div {
+        padding: 0.5rem;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 300px) {
+  .notfound {
+    > div {
+      padding: 0.5rem;
+      img {
+        width: 14rem;
+      }
+      div {
+        h2 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.8rem;
+        }
+        a {
+          button {
+            font-size: 0.8rem;
+            svg {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

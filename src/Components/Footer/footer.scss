@@ -1,0 +1,162 @@
+@import "../../style/variable.scss";
+
+.footer {
+  background-color: $color2;
+  width: 100%;
+}
+
+.footer-1 {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $color8;
+
+  div {
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      display: flex;
+      h1 {
+        font-size: 2rem;
+        color: $color11;
+      }
+      span {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: $color11;
+      }
+    }
+
+    input {
+      width: 80%;
+      padding: 0.5rem;
+      border-radius: 5px 0px 0px 5px;
+      outline: none;
+      border: none;
+      border: 1px solid $color6;
+      letter-spacing: 1px;
+      font-size: 1rem;
+    }
+    button {
+      border: none;
+      width: 20%;
+      padding: 0.5rem;
+      border-radius: 0px 5px 5px 0px;
+      background-color: transparent;
+      border: 1px solid $color6;
+      color: $color6;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: $color1;
+      }
+    }
+  }
+}
+
+.footer-2 {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $color8;
+  > div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    h1 {
+      color: $color11;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+    }
+    p {
+      font-size: 0.9rem;
+      margin: 0.3rem 0.3rem;
+      color: $color7;
+    }
+
+    a {
+      font-size: 0.9rem;
+      margin: 0.3rem 0.3rem;
+      color: $color7;
+      text-decoration: none;
+      transition: all 0.3s;
+      &:hover {
+        color: $color3;
+      }
+    }
+    svg {
+      font-size: 1.4rem;
+      margin-right: 1rem;
+    }
+  }
+}
+.footer-3 {
+  padding: 1rem 2rem;
+  text-align: center;
+  background-color: $color1;
+  p {
+    color: $color11;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .footer-1 {
+    padding: 1rem;
+    div {
+      input {
+        width: 70%;
+      }
+      button {
+        width: 30%;
+      }
+    }
+  }
+  .footer-2 {
+    padding: 1rem;
+  }
+  .footer-3 {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer-1 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    div {
+      margin: 0.5rem 0rem;
+    }
+  }
+  .footer-2 {
+    flex-direction: column;
+    div {
+      padding: 0%;
+      padding: 1rem 0rem;
+      margin: 0.5rem 0rem;
+    }
+  }
+  .footer-1 {
+    padding: 1rem;
+    div {
+      input {
+        font-size: 0.8rem;
+        width: 60%;
+      }
+      button {
+        font-size: 0.8rem;
+        width: 40%;
+      }
+    }
+  }
+}
