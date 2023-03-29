@@ -6,7 +6,8 @@ import { toast } from "react-toastify";
 import PaymentFrom from "./PaymentFrom";
 import {motion} from 'framer-motion'
 
-
+// Create PaymentIntent as soon as the page loads
+ //http://localhost:4242/create-payment-intent
 const stripePromise = loadStripe(process.env.REACT_APP_STRIPE_PK);
 
 function Payment() {
@@ -27,10 +28,8 @@ function Payment() {
   }, [cartItems, dispatch]);
 
   useEffect(() => {
-    // Create PaymentIntent as soon as the page loads
-    //http://localhost:4242/create-payment-intent
-    //https://shopio-api.onrender.com
-    fetch("https://shopio-api.onrender.com/create-payment-intent",{
+    
+    fetch("https://shopio-api.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
