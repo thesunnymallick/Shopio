@@ -29,7 +29,7 @@ function Payment() {
   useEffect(() => {
     // Create PaymentIntent as soon as the page loads
     //http://localhost:4242/create-payment-intent
-    fetch(`${process.env.REACT_APP_PAYMENT_URL}/create-payment-intent`, {
+    fetch("https://shopio-api.onrender.com/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
