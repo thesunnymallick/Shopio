@@ -113,12 +113,12 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 ![App Screenshot](Shopio-screenshot/ReastPassword.png)
 
 ### contact us and about page
-![App Screenshot](Shopio-screenshot/aboutPage.png)
+![App Screenshot](Shopio-screenshot/aboutPage.PNG)
 ![App Screenshot](Shopio-screenshot/contactusPage.png)
 
 
 
-
+  
 
 
 
