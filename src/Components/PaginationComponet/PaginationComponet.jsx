@@ -2,9 +2,9 @@ import React from "react";
 
 import Pagination from "@mui/material/Pagination";
 function PaginationComponet({ perPage, totalProducts, setCurrentPage }) {
-  console.log("page", perPage, totalProducts);
+ 
   const NoOfPage = Math.ceil(totalProducts / perPage);
-  console.log(NoOfPage);
+
 
   const handleChange = (e, p) => {
     setCurrentPage(p);

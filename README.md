@@ -1,70 +1,124 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Shop.io E-commerce Website
+Shop.io is a full-fledged e-commerce website that enables users to register with their email and password, and also login using Google authentication. It allows users to reset their password if they forget it. Shop.io provides users with the option of making payments via cash on delivery or debit card using Stripe API. Users can browse, filter, and search for products by category, brand, and price. Admin users can add, delete, and update product information, view all orders, and change order statuses as per requirement 
 
-## Available Scripts
+### Features:
+- Users can register with their email and password or use Google authentication to sign up or log in. The system also allows for password resetting if needed.
 
-In the project directory, you can run:
+- Users can search for products by entering keywords in the search bar. They can filter products by category, brand, and price.
 
-### `npm start`
+- Users can contact the website owner using the EmailJS library
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Users can place orders using cash on delivery or debit card payments through the Stripe API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Admin users have the ability to add, delete, and update products, as well as view all orders and change order statuses as needed.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools/Libraries 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- React Hooks
+- Scss
+- react-router-dom
+- Redux
+- Redux-toolkit
+- firebase
+- EmailJS
+- Material UI
+- local Storage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Live Deployment   <font color="red" style="margin-left: 10px"> Live</font>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+ https://shopio.onrender.com/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How to Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Create a Firebase project and add your Firebase configuration to a .env file in the root directory.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - Create a Stripe account and add your Stripe    API keys to the .env file.
 
-## Learn More
+- Create an EmailJS account and add your EmailJS user ID to the .env file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - Install all dependencies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm install
+```
 
-### Code Splitting
+- Start the locally frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm run start:frontend
+```
+- Start the locally backend
+```bash
+  npm run start:backend
+```
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://thesunnymallick.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thesunnymallick/)
+
+[![linkedin](https://img.shields.io/badge/instagram-e95950?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/themallicksunny/)
+
+## Demo
+
+### Home Page
+![App Screenshot](Shopio-screenshot/homePage.png)
+![App Screenshot](Shopio-screenshot/homePage-1.png)
+![App Screenshot](Shopio-screenshot/homePage-2.png)
+### Store Page
+![App Screenshot](Shopio-screenshot/StorePage.png)
+![App Screenshot](Shopio-screenshot/filterCategory-1.png)
+![App Screenshot](Shopio-screenshot/filterCategory-2.png)
+![App Screenshot](Shopio-screenshot/gridView.png)
+### product details
+![App Screenshot](Shopio-screenshot/product-detailsPage.png)
+
+### Cart
+![App Screenshot](Shopio-screenshot/cartPage.png)
+
+
+### Checkout
+![App Screenshot](Shopio-screenshot/checkout.png)
+![App Screenshot](Shopio-screenshot/payment.png)
+
+### Order history
+![App Screenshot](Shopio-screenshot/OrderHistoryPage.png)
+![App Screenshot](Shopio-screenshot/orderDetailsPage.png)
+
+### Admin Dashboard
+
+![App Screenshot](Shopio-screenshot/adminDashboard.png)
+![App Screenshot](Shopio-screenshot/viewallProducts.png)
+![App Screenshot](Shopio-screenshot/addProduct.png)
+![App Screenshot](Shopio-screenshot/viewallOrders.png)
+
+### login and register
+
+![App Screenshot](Shopio-screenshot/loginPage.png)
+![App Screenshot](Shopio-screenshot/ReagisterPage.png)
+![App Screenshot](Shopio-screenshot/ReastPassword.png)
+
+### contact us and about page
+![App Screenshot](Shopio-screenshot/aboutPage.png)
+![App Screenshot](Shopio-screenshot/contactusPage.png)
+
+
+
+
+
+
+

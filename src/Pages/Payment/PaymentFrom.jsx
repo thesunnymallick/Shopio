@@ -16,7 +16,6 @@ import useFetchCollection from "../../Components/CustomHooks/useFetchCollection"
 function PaymentFrom() {
   const stripe = useStripe();
   const elements = useElements();
-  const [email, setEmail] = useState("");
   const [message, setMessage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
@@ -155,8 +154,8 @@ function PaymentFrom() {
         <form id="payment-form" onSubmit={handleSubmit}>
           <LinkAuthenticationElement
             id="link-authentication-element"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+           
+            
           />
           <PaymentElement
             id="payment-element"

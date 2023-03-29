@@ -10,7 +10,7 @@ import "./orderHistory.scss";
 
 function OrderHistory() {
   const { data, isLoading } = useFetchCollection("orders");
-  console.log(data)
+  
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const { OrderItems } = useSelector((state) => state.orders);

@@ -38,10 +38,10 @@ const Services = () => {
   return (
     <div id="services">
       <div className="services-item">
-        {ServiesItem.map((item) => {
+        {ServiesItem.map((item, index) => {
           const { img, title, desc } = item;
           return (
-            <div>
+            <div key={index}>
               <img src={img} alt={title} />
               <aside>
                 <h3>{title}</h3>

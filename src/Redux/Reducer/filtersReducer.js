@@ -47,7 +47,7 @@ export const filtersReducer = createReducer(
         });
       }
 
-      console.log("Temp is", TempProducts);
+      
       state.FilterProducts = TempProducts;
     },
 
