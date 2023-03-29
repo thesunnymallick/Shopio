@@ -76,7 +76,7 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 ## Demo
 
 ### Home Page
-![App Screenshot](Shopio-screenshot/homePage.png)
+![App Screenshot](Shopio-screenshot/homePage.PNG)
 ![App Screenshot](Shopio-screenshot/homePage-1.png)
 ![App Screenshot](Shopio-screenshot/homePage-2.png)
 ### Store Page
