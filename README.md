@@ -28,7 +28,7 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 - Material UI
 - local Storage
 
-## Live Deployment   <font color="red" style="margin-left: 10px"> Live</font>
+## Live Deployment   
 
 
  https://shopio.onrender.com/
