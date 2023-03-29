@@ -108,13 +108,26 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 
 ### login and register
 
-![App Screenshot](Shopio-screenshot/loginPage.png)
-![App Screenshot](Shopio-screenshot/ReagisterPage.png)
-![App Screenshot](Shopio-screenshot/ReastPassword.png)
+<p>
+    <img src="Shopio-screenshot/loginPage.png"/>
+</p>
+
+<p>
+    <img src="Shopio-screenshot/ReagisterPage.png"/>
+</p>
+<p>
+    <img src="Shopio-screenshot/ReastPassword.png"/>
+</p>
+
 
 ### contact us and about page
-![App Screenshot](Shopio-screenshot/aboutPage.PNG)
-![App Screenshot](Shopio-screenshot/contactusPage.PNG)
+
+<p>
+    <img src="Shopio-screenshot/aboutPage.PNG"/>
+</p>
+<p>
+    <img src="Shopio-screenshot/contactusPage.PNG"  />
+</p>
 
 
 
