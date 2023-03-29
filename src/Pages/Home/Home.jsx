@@ -33,8 +33,8 @@ function Home() {
     });
   }, [data, dispatch]);
 
-  const featuredProducts = products.slice(0, 5);
-  const popularProducts = products.slice(2, 6);
+  const featuredProducts = products.slice(22, 32);
+  const popularProducts = products.slice(40, 50);
 
   const imageBox = [
     {
