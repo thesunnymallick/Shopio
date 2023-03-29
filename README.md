@@ -114,11 +114,11 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 
 ### contact us and about page
 ![App Screenshot](Shopio-screenshot/aboutPage.PNG)
-![App Screenshot](Shopio-screenshot/contactusPage.png)
+![App Screenshot](Shopio-screenshot/contactusPage.PNG)
 
 
 
-  
+
 
 
 
