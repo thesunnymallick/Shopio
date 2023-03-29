@@ -123,7 +123,7 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 ### contact us and about page
 
 <p>
-    <img src="./Shopio-screenshot/aboutPage.PNG"/>
+    <img src="https://photos.google.com/search/_tra_/photo/AF1QipPUoTUuSyVsOqeGBJiHXZ6tEEU0HMdoM9uwu0qH"/>
 </p>
 <p>
     <img src="./Shopio-screenshot/contactusPage.PNG"  />
