@@ -133,7 +133,7 @@ function ProductsDetails() {
                         variant="contained"
                         onClick={() => AddToCart(singleProduct)}
                       >
-                        ADD To Card
+                        Add To Cart
                       </Button>
                     ) : (
                       <Button variant="contained" disabled>
