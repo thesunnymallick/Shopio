@@ -85,9 +85,6 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 ![filterCategory](https://user-images.githubusercontent.com/81466855/229351569-656db240-91b0-414d-9a1e-6e96f1e4021e.png)
 ![gridView](https://user-images.githubusercontent.com/81466855/229351575-063d1da8-1754-421f-8ee9-939d38bcd05f.png)
 
-### product details
-
-![viewReview](https://user-images.githubusercontent.com/81466855/229351616-5044063b-9772-4815-aa75-6c0c827fcae5.png)
 
 ### Cart
 ![cartPage](https://user-images.githubusercontent.com/81466855/229351633-7f26c993-c857-447f-b783-35ae7218a425.png)
