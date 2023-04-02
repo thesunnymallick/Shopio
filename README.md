@@ -80,54 +80,44 @@ Shop.io is a full-fledged e-commerce website that enables users to register with
 ![homePage-1](https://user-images.githubusercontent.com/81466855/229351583-5b25e34f-0b97-48d6-8898-c9032133ba2b.png)
 ![homePage-2](https://user-images.githubusercontent.com/81466855/229351587-b71faf83-3130-4086-8a8d-adc475f25853.png)
 ### Store Page
-![App Screenshot](Shopio-screenshot/StorePage.png)
-![App Screenshot](Shopio-screenshot/filterCategory-1.png)
-![App Screenshot](Shopio-screenshot/filterCategory-2.png)
-![App Screenshot](Shopio-screenshot/gridView.png)
+![StorePage](https://user-images.githubusercontent.com/81466855/229351608-1da0f77a-3264-44d4-a064-ea280ac99ef1.png)
+![filter-4](https://user-images.githubusercontent.com/81466855/229351566-38b0cbf3-c599-4d19-9647-4ede3d7475c2.png)
+![filterCategory](https://user-images.githubusercontent.com/81466855/229351569-656db240-91b0-414d-9a1e-6e96f1e4021e.png)
+![gridView](https://user-images.githubusercontent.com/81466855/229351575-063d1da8-1754-421f-8ee9-939d38bcd05f.png)
+
 ### product details
-![App Screenshot](Shopio-screenshot/product-detailsPage.png)
+
+![viewReview](https://user-images.githubusercontent.com/81466855/229351616-5044063b-9772-4815-aa75-6c0c827fcae5.png)
 
 ### Cart
-![App Screenshot](Shopio-screenshot/cartPage.png)
-
+![cartPage](https://user-images.githubusercontent.com/81466855/229351633-7f26c993-c857-447f-b783-35ae7218a425.png)
 
 ### Checkout
-![App Screenshot](Shopio-screenshot/checkout.png)
-![App Screenshot](Shopio-screenshot/payment.png)
+![checkout](https://user-images.githubusercontent.com/81466855/229351634-b7838d23-84ec-4997-9a74-4e66d0281f7f.png)
+![payment](https://user-images.githubusercontent.com/81466855/229351593-c972de2f-4565-4d13-abec-11f2115d247f.png)
 
 ### Order history
-![App Screenshot](Shopio-screenshot/OrderHistoryPage.png)
-![App Screenshot](Shopio-screenshot/orderDetailsPage.png)
+![orderDetailsPage](https://user-images.githubusercontent.com/81466855/229351590-a1bc63bc-4ee4-4a47-99e0-1ef95617e46a.png)
+![OrderHistoryPage](https://user-images.githubusercontent.com/81466855/229351591-889164e1-feba-4ab3-9e25-7af41bc4b54a.png)
 
 ### Admin Dashboard
 
-![App Screenshot](Shopio-screenshot/adminDashboard.png)
-![App Screenshot](Shopio-screenshot/viewallProducts.png)
-![App Screenshot](Shopio-screenshot/addProduct.png)
-![App Screenshot](Shopio-screenshot/viewallOrders.png)
+![adminDashboard](https://user-images.githubusercontent.com/81466855/229351631-6eb10a9e-fa5c-4610-b081-3e4cfd6304f6.png)
+![viewallOrders](https://user-images.githubusercontent.com/81466855/229351610-bed0eb9a-9328-49b1-84dc-1ec13fbd0902.png)
+![viewallProducts](https://user-images.githubusercontent.com/81466855/229351613-b6716ed1-6433-428b-be01-2a90a4ab55a3.png)
+![addProduct](https://user-images.githubusercontent.com/81466855/229351628-3e898747-d326-4d8b-be2d-d5c21267dcbc.png)
 
 ### login and register
 
-<p>
-    <img src="Shopio-screenshot/loginPage.png"/>
-</p>
-
-<p>
-    <img src="./Shopio-screenshot/ReagisterPage.png"/>
-</p>
-<p>
-    <img src="./Shopio-screenshot/ReastPassword.png"/>
-</p>
+![loginPage](https://user-images.githubusercontent.com/81466855/229351589-3f2d54c1-e8a8-4af8-89aa-43fdd9540df2.png)
+![ReagisterPage](https://user-images.githubusercontent.com/81466855/229351596-76ae0a9e-6ff5-4c86-aef3-d265b26546aa.png)
+![ReastPassword](https://user-images.githubusercontent.com/81466855/229351597-07005a04-34a4-4beb-878f-bc8b78a533c7.png)
 
 
 ### contact us and about page
+![aboutPage](https://user-images.githubusercontent.com/81466855/229351618-254b7634-a2cc-47cd-b592-694f4c25afdf.png)
+![contactusPage](https://user-images.githubusercontent.com/81466855/229351552-84977c39-c3db-4261-9d2c-413b023ae6ba.png)
 
-<p>
-    <img src="https://photos.google.com/search/_tra_/photo/AF1QipPUoTUuSyVsOqeGBJiHXZ6tEEU0HMdoM9uwu0qH"/>
-</p>
-<p>
-    <img src="./Shopio-screenshot/contactusPage.PNG"  />
-</p>
 
 
 
